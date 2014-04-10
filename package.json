@@ -2,6 +2,8 @@
   "name": "application-name",
   "version": "0.0.1",
   "private": true,
+  "author": "Jackey Xue <jackey_bill@21cn.com>",
+  "description": "nodeJS example to use Express, Jade, MongoDB, EJS, etc ",  
   "scripts": {
     "start": "node app.js"
   },
@@ -9,6 +11,7 @@
     "express": "3.5.0",
     "jade": "*",
 	"mongodb": "*",
-	"monk": "*"
+	"monk": "*",
+	"ejs": "*"
   }
 }
