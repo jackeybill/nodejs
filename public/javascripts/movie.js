@@ -3,7 +3,7 @@ $(function() {
 	var mdata={};
 	var url = '/javascripts/movie.json';
 
-	var movie=$('#c_editor').attr('movie')
+	var movie=$('#c_editor').attr('movie');
 	if(movie){
 		url = '/movie/json/'+movie;
 	}
